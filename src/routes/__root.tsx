@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dhruv Pandit — Software Engineer" },
+      { title: "Dhruv Pandit_Portfolio" },
       { name: "description", content: "Dhruv Pandit — Software Engineer building scalable backends and intelligent ML systems. Backend, AI, MERN." },
       { name: "author", content: "Dhruv Pandit" },
-      { property: "og:title", content: "Dhruv Pandit — Software Engineer" },
-      { property: "og:description", content: "Backend, AI & MERN engineer. Building scalable systems and intelligent experiences." },
+      { property: "og:title", content: "Dhruv Pandit_Portfolio" },
+      { property: "og:description", content: "Dhruv Pandit — Software Engineer building scalable backends and intelligent ML systems. Backend, AI, MERN." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Dhruv Pandit_Portfolio" },
+      { name: "twitter:description", content: "Dhruv Pandit — Software Engineer building scalable backends and intelligent ML systems. Backend, AI, MERN." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e696d501-be02-4084-8c00-77673cbced27/id-preview-f8c8b0d1--2aacc82c-b311-43b0-a685-b80d1cd741ed.lovable.app-1777470107953.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e696d501-be02-4084-8c00-77673cbced27/id-preview-f8c8b0d1--2aacc82c-b311-43b0-a685-b80d1cd741ed.lovable.app-1777470107953.png" },
     ],
     links: [
       {

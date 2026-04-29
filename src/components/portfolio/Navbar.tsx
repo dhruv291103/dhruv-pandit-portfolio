@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import portrait from "@/assets/dhruv-portrait.jpg";
 
 const links = [
   { href: "#about", label: "About" },
@@ -32,8 +33,15 @@ export default function Navbar() {
           }`}
         >
           <a href="#top" className="group flex items-center gap-2">
-            <span className="relative flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--gradient-primary)] font-display text-sm font-bold text-primary-foreground shadow-[var(--shadow-glow-sm)]">
-              DP
+            <span className="relative flex h-9 w-9 items-center justify-center rounded-lg p-[2px] shadow-[var(--shadow-glow-sm)]" style={{ background: "var(--gradient-primary)" }}>
+              <img
+                src={portrait}
+                alt="Dhruv Pandit"
+                className="h-full w-full rounded-[6px] object-cover"
+              />
+              <span className="pointer-events-none absolute -bottom-1 -right-1 rounded-md bg-background/90 px-1 py-px font-display text-[8px] font-bold text-foreground/90 ring-1 ring-white/10">
+                DP
+              </span>
             </span>
             <span className="hidden font-display text-sm font-medium tracking-wide text-foreground/90 sm:block">
               Dhruv Pandit

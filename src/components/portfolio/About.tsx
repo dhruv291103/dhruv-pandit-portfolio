@@ -1,4 +1,5 @@
 import SectionHeader from "./SectionHeader";
+import portrait from "@/assets/dhruv-portrait.jpg";
 
 const focus = [
   {
@@ -50,7 +51,24 @@ export default function About() {
           <div className="reveal glass relative overflow-hidden rounded-2xl p-8 lg:col-span-2">
             <div className="absolute inset-0 -z-10 opacity-60" style={{ background: "var(--gradient-radial)" }} />
             <div className="font-mono text-xs uppercase tracking-[0.25em] text-muted-foreground">profile.dp</div>
-            <p className="mt-4 text-lg leading-relaxed text-foreground/90">
+
+            <div className="mt-6 flex items-center gap-4">
+              <div className="relative">
+                <div className="absolute -inset-1 rounded-2xl opacity-70 blur-md" style={{ background: "var(--gradient-primary)" }} aria-hidden />
+                <img
+                  src={portrait}
+                  alt="Portrait of Dhruv Pandit"
+                  loading="lazy"
+                  className="relative h-20 w-20 rounded-2xl object-cover ring-1 ring-white/15"
+                />
+              </div>
+              <div>
+                <div className="font-display text-lg font-semibold text-foreground">Dhruv Pandit</div>
+                <div className="text-xs text-muted-foreground">Software Engineer · Mumbai</div>
+              </div>
+            </div>
+
+            <p className="mt-6 text-lg leading-relaxed text-foreground/90">
               I design and ship software with the same craft I'd want in tools I use
               every day —{" "}
               <span className="text-gradient-brand font-medium">fast, reliable, and elegant.</span>

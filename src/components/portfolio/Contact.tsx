@@ -3,7 +3,7 @@ import SectionHeader from "./SectionHeader";
 
 const channels = [
   { label: "Email", value: "dhruv.pandit@example.com", href: "mailto:dhruv.pandit@example.com" },
-  { label: "Phone", value: "+91 90000 00000", href: "tel:+910000000000" },
+  { label: "Phone", value: "+91 77389 70479", href: "tel:+917738970479" },
   { label: "GitHub", value: "github.com/dhruvpandit", href: "https://github.com" },
   { label: "LinkedIn", value: "linkedin.com/in/dhruvpandit", href: "https://linkedin.com" },
 ];

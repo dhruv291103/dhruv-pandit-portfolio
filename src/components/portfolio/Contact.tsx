@@ -59,7 +59,7 @@ export default function Contact() {
             className="reveal glass relative overflow-hidden rounded-3xl p-8 lg:col-span-3"
           >
             <div className="grid gap-5 sm:grid-cols-2">
-              <Field label="Name" name="name" placeholder="Ada Lovelace" />
+              <Field label="Name" name="name" placeholder="Lionel Messi" />
               <Field label="Email" name="email" type="email" placeholder="you@company.com" />
             </div>
             <Field className="mt-5" label="Subject" name="subject" placeholder="Internship / role / collaboration" />

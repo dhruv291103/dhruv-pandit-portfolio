@@ -64,6 +64,7 @@ export default function Hero() {
             </a>
             <a
               href="/resume.pdf"
+              download="Dhruv-Pandit-Resume.pdf"
               className="glass inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-medium text-foreground transition-all hover:bg-white/10"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" strokeLinecap="round" strokeLinejoin="round" /></svg>

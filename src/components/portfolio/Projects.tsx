@@ -11,7 +11,8 @@ const projects = [
       { k: "Model", v: "CNN + Transformer" },
     ],
     stack: ["TensorFlow", "Flask", "React", "MongoDB", "Node"],
-    href: "#",
+    href: "https://github.com/dhruvpandit/ai-image-caption-generator",
+    demo: "https://github.com/dhruvpandit/ai-image-caption-generator",
     accent: "from-[var(--neon-purple)] to-[var(--neon-blue)]",
   },
   {
@@ -24,7 +25,8 @@ const projects = [
       { k: "Auth", v: "JWT" },
     ],
     stack: ["React", "Node", "Express", "MongoDB", "JWT"],
-    href: "#",
+    href: "https://github.com/dhruvpandit/food-ordering-platform",
+    demo: "https://github.com/dhruvpandit/food-ordering-platform",
     accent: "from-[var(--neon-blue)] to-[var(--neon-cyan)]",
   },
 ];
@@ -100,13 +102,17 @@ export default function Projects() {
               <div className="mt-6 flex gap-3">
                 <a
                   href={p.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-lg bg-white/5 px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-white/10"
                 >
                   View code
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 18l6-6-6-6" strokeLinecap="round" strokeLinejoin="round" /></svg>
                 </a>
                 <a
-                  href={p.href}
+                  href={p.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
                 >
                   Live demo →

@@ -83,7 +83,7 @@ export default function Contact() {
                 </a>{" "}
                 directly.
               </p>
-              <button
+              {/* <button
                 type="submit"
                 className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl bg-[var(--gradient-primary)] px-5 py-3 text-sm font-medium text-primary-foreground shadow-[var(--shadow-glow-sm)] transition-all hover:scale-[1.03] hover:shadow-[var(--shadow-glow)]"
               >
@@ -91,7 +91,28 @@ export default function Contact() {
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="transition-transform group-hover:translate-x-0.5">
                   <path d="M5 12h14M13 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </button>
+              </button> */}
+              <button
+  type="submit"
+  className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl bg-[var(--gradient-primary)] px-5 py-3 text-sm font-medium text-white shadow-[var(--shadow-glow-sm)] transition-all hover:scale-[1.03] hover:shadow-[var(--shadow-glow)]"
+>
+  {sent ? "Sent ✓" : "Send message"}
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    className="transition-transform group-hover:translate-x-0.5"
+  >
+    <path
+      d="M5 12h14M13 5l7 7-7 7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+</button>
             </div>
           </form>
         </div>

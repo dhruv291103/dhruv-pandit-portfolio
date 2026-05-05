@@ -11,8 +11,8 @@ const projects = [
       { k: "Model", v: "CNN + Transformer" },
     ],
     stack: ["TensorFlow", "Flask", "React", "MongoDB", "Node"],
-    href: "https://github.com/dhruvpandit/ai-image-caption-generator",
-    demo: "https://github.com/dhruvpandit/ai-image-caption-generator",
+    href: "https://github.com/dhruv291103/img_caption_generation",
+    demo: "https://github.com/dhruv291103/img_caption_generation",
     accent: "from-[var(--neon-purple)] to-[var(--neon-blue)]",
   },
   {
@@ -25,8 +25,8 @@ const projects = [
       { k: "Auth", v: "JWT" },
     ],
     stack: ["React", "Node", "Express", "MongoDB", "JWT"],
-    href: "https://github.com/dhruvpandit/food-ordering-platform",
-    demo: "https://github.com/dhruvpandit/food-ordering-platform",
+    href: "https://github.com/dhruv291103/zomapp",
+    demo: "https://github.com/dhruv291103/zomapp",
     accent: "from-[var(--neon-blue)] to-[var(--neon-cyan)]",
   },
 ];

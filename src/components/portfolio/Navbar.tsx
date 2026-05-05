@@ -61,12 +61,19 @@ export default function Navbar() {
             ))}
           </ul>
 
-          <a
+          {/* <a
             href="#contact"
             className="hidden rounded-lg bg-[var(--gradient-primary)] px-4 py-2 text-sm font-medium text-primary-foreground shadow-[var(--shadow-glow-sm)] transition-transform hover:scale-[1.03] md:inline-block"
           >
             Let's talk
-          </a>
+          </a> */}
+
+          <a
+  href="#contact"
+  className="hidden rounded-lg bg-[var(--gradient-primary)] px-4 py-2 text-sm font-medium text-white shadow-[var(--shadow-glow-sm)] transition-transform hover:scale-[1.03] md:inline-block"
+>
+  Let's talk
+</a>  
 
           <button
             aria-label="Toggle menu"
